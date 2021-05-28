@@ -106,8 +106,6 @@ body {
     .topicUrl{display:block; overflow:hidden;}
 
 body{
-  background:#111;margin:0;padding:0
-	canvas {background:#000;display:block;cursor: none}
   overflow: auto;
   background: linear-gradient(to bottom, #e2e2e2, #ffffff);
   font-family:Tahoma;
