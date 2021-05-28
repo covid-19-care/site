@@ -1,3 +1,5 @@
+
+
 // Themes begin
 am4core.useTheme(am4themes_animated);
 // Themes end
@@ -1000,6 +1002,7 @@ var ts = new Date;
     }
     lockDown();
 
+
 axios
   .get("https://covid19-api.com/totals?format=json")
   .then(({ data }) => {
@@ -1027,7 +1030,6 @@ axios
       updateData.innerHTML = `${lastUpdate}`;
     }
   })
-
   .catch(function (error) {
     console.log(error);
   });
