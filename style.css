@@ -24,12 +24,16 @@ body {
 #chartdiv {
   width: 100%;
   height: 800px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
   background-color:#0084B0;
 }
 
 *{margin:0;padding:0;box-sizing:border-box}
     a{text-decoration:none}
-    .corona-india{width:100%;padding:7px 0;background:#000;margin-bottom:0;border-radius:0 10px 10px 10px;}
+    .corona-india{width:100%;padding:7px 0;background:#000;margin-bottom:20px;border-radius:0 10px 10px 10px;}
     .columns{display:flex}
     .virus-logo{max-width:262px;width:100%;height:150px;float:left}
     .virus-logo img{top:0;position:absolute;z-index:0}
@@ -39,7 +43,7 @@ body {
     .cases-count{display:flex;padding:11px 0;align-items:center}
     .cases-count .total-cases,.cases-count .recovered-cases,.cases-count .death-cases{display:flex;flex-direction:column;align-items:center;flex-grow:1}
     .cases-count h5{font-size:18px;line-height:normal;margin:0;font-family:'Cambay',sans-serif;color:#fff;text-transform:uppercase;font-weight:500}
-    .cases-count h1{font-family:'Roboto',sans-serif;font-size:62px;line-height:66px}
+    .cases-count h1{font-family:'Roboto',sans-serif;font-size:48px;line-height:66px}
     .cases-count .total-cases h1{color:#e3b410}
     .cases-count .recovered-cases h1{color:#25ad00}
     .cases-count .death-cases h1{color:#d51e20}
@@ -226,6 +230,7 @@ MoveUpDown is a keyFrames that define the position*/
 /*Table Container Style*/
 #TblCon{
   background:#efefef;
+  width:100%;
 }
 
 /*Table Style*/
